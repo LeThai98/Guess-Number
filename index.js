@@ -49,6 +49,7 @@ document.querySelector('.again').addEventListener('click', ()=>{
     document.querySelector('.number').textContent = '?';
     document.querySelector('.guess').value = '';
     document.querySelector('.message').textContent = 'Start guessing...';
+    document.querySelector('.score').textContent = score;
    
 })
 
